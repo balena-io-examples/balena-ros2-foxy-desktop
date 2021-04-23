@@ -14,20 +14,26 @@ To get started, you can simply click the "Deploy with balena" button above, or u
 
 Once your device is provisioned and online, and the containers have been built and downloaded, you are ready.  This repo will build a full desktop environment, so you'll want to attach a monitor, keyboard, and mouse to your device.  Upon starting up, you will be brought directly to the desktop.  We have included the TurtleBot3 sample application, so that you can get started and see how Rviz and Gazebo work.  From the Start menu, open up a Terminal, and enter the following commands to launch TurtleBot:
 
-`export TURTLEBOT3_MODEL=burger`
-`ros2 launch turtlebot3_gazebo turtlebot3_house.launch.py`
+```
+export TURTLEBOT3_MODEL=burger
+ros2 launch turtlebot3_gazebo turtlebot3_house.launch.py
+```
 
 It will take a moment, but you will see Gazebo launch and a 3D-rendered house get built.  A robot is created and placed on the ground out front, as well.  To drive TurtleBot, you need to launch another Terminal, and enter the following commands:
 
-`export TURTLEBOT3_MODEL=burger`
-`ros2 run turtlebot3_teleop teleop_keyboard`
+```
+export TURTLEBOT3_MODEL=burger
+ros2 run turtlebot3_teleop teleop_keyboard
+```
 
 This will allow you to move the robot around, using the keys as shown in the CLI: w,a,s,d,x for forward, left, stop, right, and back respectively.
 
 You can also have a look at TurtleBot's view of the world by launching Rviz.  This is useful to get the Lidar perspective, and how it maps it's surroundings.  Open yet another terminal, and enter the following:
 
-`export TURTLEBOT3_MODEL=burger`
-`ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=True`
+```
+export TURTLEBOT3_MODEL=burger
+ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=True
+```
 
 You can find more documentation on how to make use of TurtleBot here:  https://emanual.robotis.com/docs/en/platform/turtlebot3/
 
