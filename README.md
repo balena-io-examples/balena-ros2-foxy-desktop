@@ -47,7 +47,7 @@ ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True
 ```
 
 ## Conclusion
-This repo is designed to get you up and running with ROS2 Foxy quickly, and help you to get ROS installed and functional.  There is some demo functionality built-in as described, and hopefully this helps to allow  you to iterate and deploy your own robots easily.  You can find [more documentation on ROS here](https://docs.ros.org/en/foxy/Installation.html), and additional information about how to make use of TurtleBot here:  https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/#gazebo-simulation
+This repo is designed to get you up and running with ROS2 Foxy quickly, and help you to get ROS installed and functional.  There is some demo functionality built-in as described, and hopefully this helps to allow  you to iterate and deploy your own robots easily.  You can find [more documentation on ROS here](https://docs.ros.org/en/foxy/Tutorials.html), and additional information about how to make use of TurtleBot here:  https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/#gazebo-simulation
 
 
 
