@@ -16,7 +16,7 @@ RUN apt-get update
 
 # Install ROS
 RUN apt-get update && apt-get install -y ros-foxy-desktop ros-foxy-demo-nodes-cpp ros-foxy-gazebo-ros2-control-demos xfce4 xinit xserver-xorg xserver-xorg-video-fbdev xinit pciutils xfonts-100dpi xfonts-75dpi xfonts-scalable 
-RUN apt-get install -y python3-argcomplete wget unzip nano build-essential xterm gedit firefox ros-foxy-turtlebot3 ros-foxy-turtlebot3-msgs ros-foxy-dynamixel-sdk 
+RUN apt-get install -y python3-argcomplete wget unzip nano build-essential xterm gedit firefox ros-foxy-turtlebot3 ros-foxy-turtlebot3-gazebo ros-foxy-turtlebot3-msgs ros-foxy-dynamixel-sdk ros-foxy-turtlebot3
 
 # Configure Enviroment for ROS
 RUN echo "source /opt/ros/foxy/setup.bash" >> ~/.bashrc
