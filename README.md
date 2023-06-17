@@ -1,4 +1,6 @@
-# balena ROS2 Foxy Desktop container
+# balena ROS2 Humble Desktop container
+
+# The Readme is yet to be updated.
 
 [![balena deploy button](https://www.balena.io/deploy.png)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/balena-io-examples/balena-ros2-foxy-desktop/)
 
